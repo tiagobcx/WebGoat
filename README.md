@@ -116,7 +116,7 @@ export EXCLUDE_CATEGORIES="CLIENT_SIDE,GENERAL,CHALLENGE"
 export EXCLUDE_LESSONS="SqlInjectionAdvanced,SqlInjectionMitigations"
 java -jar webgoat-server/target/webgoat-server-v8.2.2-SNAPSHOT.jar
 ```
-Or in a docker run it would (once this version is pushed into docker hub) look like this:
+Or in a docker run it would (once this version is pushed into docker hub) look like this:s
 ```Shell
 docker run -d -p 80:8888 -p 8080:8080 -p 9090:9090 -e TZ=Europe/Amsterdam -e EXCLUDE_CATEGORIES="CLIENT_SIDE,GENERAL,CHALLENGE" -e EXCLUDE_LESSONS="SqlInjectionAdvanced,SqlInjectionMitigations" webgoat/goatandwolf
 ```
