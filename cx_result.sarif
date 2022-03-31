@@ -37,9 +37,6 @@
                         {
                             "id": "17155209939029667221",
                             "name": "Unsafe_Use_Of_Target_blank da RULE",
-                            "help{
-                                "text":"TEXTO DE AJUDA COM MUITOS DETALHESSS"
-                            }
                             "helpUri": "https://checkmarx.atlassian.net/wiki/spaces/AST/pages/5844861345/CxAST+Documentation"
                         },
                         {
