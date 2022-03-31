@@ -37,7 +37,12 @@
                         {
                             "id": "17155209939029667221",
                             "name": "Unsafe_Use_Of_Target_blank da RULE",
-                            "helpUri": "https://checkmarx.atlassian.net/wiki/spaces/AST/pages/5844861345/CxAST+Documentation"
+                            "shortDescription": {
+                                "text": "Inconsistent use of 'new'"
+                            },
+                            "fullDescription": {
+                                "text": "If a function is intended to be a constructor, it should always be invoked with 'new'. Otherwise, it should always be invoked as a normal function, that is, without 'new'."
+                            }
                         },
                         {
                             "id": "9001657640014870111",
@@ -597,7 +602,6 @@
                 },
                 {
                     "ruleId": "17155209939029667221",
-                    "ruleIndex" : 5,
                     "level": "note",
                     "message": {
                         "text": "Unsafe_Use_Of_Target_blank"
