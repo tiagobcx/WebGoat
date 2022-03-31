@@ -36,7 +36,10 @@
                         },
                         {
                             "id": "17155209939029667221",
-                            "name": "Unsafe_Use_Of_Target_blank",
+                            "name": "Unsafe_Use_Of_Target_blank da RULE",
+                            "help{
+                                "text":"TEXTO DE AJUDA COM MUITOS DETALHESSS"
+                            }
                             "helpUri": "https://checkmarx.atlassian.net/wiki/spaces/AST/pages/5844861345/CxAST+Documentation"
                         },
                         {
@@ -619,11 +622,8 @@
                 {
                     "ruleId": "17155209939029667221",
                     "level": "note",
-                    "help":{
-                        "text":"XML external entity (XXE) vulnerability in the XPath selector component in Artemis ActiveMQ before commit 48d9951d879e0c8cbb59d4b64ab59d53ef88310d allows remote attackers to have unspecified impact via unknown vectors."
-                    },
                     "message": {
-                        "text": "Unsafe_Use_Of_Target_blank"
+                        "text": "Unsafe_Use_Of_Target_blank "
                     },
                     "locations": [
                         {
@@ -5938,7 +5938,6 @@
                 {
                     "ruleId": "17155209939029667221",
                     "level": "note",
-                    "helpUri":"",
                     "message": {
                         "text": "Unsafe_Use_Of_Target_blank"
                     },
