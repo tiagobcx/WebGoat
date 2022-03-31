@@ -597,6 +597,7 @@
                 },
                 {
                     "ruleId": "17155209939029667221",
+                    "ruleIndex" : 5
                     "level": "note",
                     "message": {
                         "text": "Unsafe_Use_Of_Target_blank"
